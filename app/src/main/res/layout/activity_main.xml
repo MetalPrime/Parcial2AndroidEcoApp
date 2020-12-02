@@ -35,7 +35,7 @@
         android:layout_marginBottom="32dp"
         android:ems="10"
         android:hint="Puntaje"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/btnOk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
