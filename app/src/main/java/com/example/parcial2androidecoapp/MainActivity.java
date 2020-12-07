@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                    );
 
                    scoresRef.setValue(score);
-
+                   inputScore.setText("");
 
 
                 }
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                             if(question.getIsActual().equals("true")){
                                 quid = question.getId();
                                 currentQuestion.setText(question.getDescription());
+
                             } else {
                                 currentQuestion.setText("No hay pregunta actual");
 
